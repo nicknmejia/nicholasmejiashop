@@ -1,10 +1,32 @@
 .black{
 	height: 100%;
-	background-color: darkgrey;
+	background-color: black;
 
 }
 
 .blue{
 	height: 100%;
 	background-color: lightblue;
+}
+
+.nav {
+    position: fixed;
+    top: 50%;
+    left: 13%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);    
+}
+
+.header-text{
+	font-family: 'Qwigley', cursive;
+	font-size: 3.5em;
+    color: white;
+    border-bottom: 2px white solid;
+    text-align: center;
+}
+
+.sub-header-text{
+	color: white;
+	text-align: center;
+	padding-top: 5px;
 }
