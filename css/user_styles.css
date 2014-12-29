@@ -4,6 +4,11 @@
 
 }
 
+.black2{
+	height: 150px;
+	background-color: black;
+}
+
 .white{
 	height: 100%;
 	background-color: white;
@@ -23,6 +28,14 @@
     color: white;
     border-bottom: 2px white solid;
     text-align: center;
+    margin: auto;
+}
+
+.header-text2{
+	font-family: 'Qwigley', cursive;
+	font-size: 3.5em;
+    color: white;
+    margin: auto;
 }
 
 .sub-header-text{
@@ -30,4 +43,8 @@
 	color: white;
 	text-align: center;
 	padding-top: 5px;
+}
+
+.top-bar {
+    background-color: black;
 }

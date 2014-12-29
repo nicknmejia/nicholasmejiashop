@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" type="text/css" href="css/user_styles.css">
     <link href='http://fonts.googleapis.com/css?family=Lato|Qwigley' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
-      <div class="large-3 medium-12 columns black">
+      <div class="large-3 medium-12 columns black show-for-large">
         <div class="nav">
           <h1 class="header-text">Nicholas Mejia</h1>
           <p class="sub-header-text centered">Illustration &amp; Prints</p>
@@ -20,10 +20,35 @@
               <li><a href="#" class="button">Art</a></li>
               <li><a href="#" class="button">About</a></li>
               <li><a href="#" class="button">Contact</a></li>
+              <li><a href="#" class="button">Cart</a></li>
             </ul>
           </div>
         </div>
       </div>
+
+      <div class="hide-for-large">
+        <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area" style="background-color: black;">
+          <li class="name">
+            <h1><a style="background-color: black;" href="#">My Site</a></h1>
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a style="background-color: black;" href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a style="background-color: black;" href="#">Art</a></li>
+            <li><a style="background-color: black;" href="#">About</a></li>
+            <li><a style="background-color: black;" href="#">Contact</a></li>
+            <li><a style="background-color: black;" href="#">Cart</a></li>
+          </ul>
+
+        </section>
+      </nav>
+    </div>
+
       <div class="large-9 columns white">
         This will contain content stuff
       </div>
