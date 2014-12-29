@@ -4,9 +4,9 @@
 
 }
 
-.blue{
+.white{
 	height: 100%;
-	background-color: lightblue;
+	background-color: white;
 }
 
 .nav {
@@ -26,6 +26,7 @@
 }
 
 .sub-header-text{
+	font-family: 'Lato', sans-serif;
 	color: white;
 	text-align: center;
 	padding-top: 5px;
